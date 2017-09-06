@@ -10,6 +10,6 @@ RUN npm install
 
 ADD app/nodemon.json /src/nodemon.json
 
-EXPOSE 3000
+EXPOSE 80
 
 CMD npm start
