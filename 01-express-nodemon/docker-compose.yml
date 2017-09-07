@@ -3,4 +3,4 @@ web:
   volumes:
     - "./app:/src/app"
   ports:
-    - "80:80"
+    - "8080:8080"
